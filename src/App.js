@@ -35,7 +35,7 @@ function App() {
         onChange={(event)=> handleQRCode(event)}
       />
 
-      <a href={download} download={`qrcode.png`}> Baixar QR-Code </a>
+      <button className="buttonInput"><a href={download} download={`qrcode.png`}>Download</a></button>
     </div>
   );
 }
